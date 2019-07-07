@@ -1,0 +1,15 @@
+.dataTable{
+    display:inline-block;
+    text-align:center;
+    margin:auto;
+}
+.generateChartButton{
+    position:absolute;
+    padding:10px 20px;
+    background:#0C9;
+    margin:20px;
+    bottom:3px;
+    right:4px;
+    border-radius:20px;
+
+}
