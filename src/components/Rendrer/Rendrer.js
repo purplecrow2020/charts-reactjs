@@ -45,6 +45,7 @@ const Rendrer =(props)=>{
                     />
                         {/* <button onClick={props.openEditModal.bind(this, index)}>Edit</button> */}
                         <button className="editButton" onClick={props.openEditModal.bind(this, index)}  >Edit </button>
+                        <button className="editButton" onClick={props.deleteModal.bind(this, index)}>Delete </button>
 
                         {/* <span className="config-icons">
                             <IoMdCreate />
@@ -64,6 +65,7 @@ const Rendrer =(props)=>{
                         options={chartObj.options}
                     />
                         <button className="editButton" onClick={props.openEditModal.bind(this, index)}  >Edit </button>
+                        <button className="editButton" onClick={props.deleteModal.bind(this, index)}>Delete </button>
 
                         {/* <button onClick={props.openEditModal.bind(this, index)}>Edit</button>
                         <span className="config-icons">
@@ -84,6 +86,7 @@ const Rendrer =(props)=>{
                         options={chartObj.options}
                     />
                         <button className="editButton" onClick={props.openEditModal.bind(this, index)}  >Edit </button>
+                        <button className="editButton" onClick={props.deleteModal.bind(this, index)}>Delete </button>
 
                         {/* <button onClick={props.openEditModal.bind(this, index)}>Edit</button>
                         <span className="config-icons">

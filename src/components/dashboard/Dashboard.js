@@ -6,10 +6,12 @@ import { IoIosAdd} from 'react-icons/io';
 import "./Dashboard.css";
 import Header from '../Header/Header';
 import Aux from '../../utility/hoc';
+// import Backdrop from '../backdrop/backdrop';
 class Dashboard extends Component {
     render() {
         return (
             <Aux>
+                {/* <Backdrop> */}
             <Header />
             <div>
                 <span className="float" onClick ={this.props.createNewChart}>
@@ -18,6 +20,7 @@ class Dashboard extends Component {
                 <Rendrer/>
                 <Modal />
             </div>
+            {/* </Backdrop> */}
             </Aux>
 
         )
