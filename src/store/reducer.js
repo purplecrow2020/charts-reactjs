@@ -145,7 +145,7 @@ const reducer = (state = initialState,action)=>{
         const newCharts =[...state.charts]
         newCharts[state.editChartIndex] =state.editableChart
         return {...state , 
-            charts :newCharts
+            charts :newCharts,editChart :false,generateChart:false
         }
     }
     if (action.type === 'CONFIG_DATA_EDIT_ACTION'){
